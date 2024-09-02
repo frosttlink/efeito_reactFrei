@@ -1,0 +1,14 @@
+@import '/src/color';
+
+.cabecalho {
+  header {
+    background-color: $theme-secondary;
+    display:flex;
+    height: 100px;
+    color: $theme-primary;
+    align-items: center;
+    padding: 40px;
+    gap: 25px;
+    font-size: 16px;
+  }
+}
