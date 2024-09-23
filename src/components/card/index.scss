@@ -1,15 +1,26 @@
 @import '../../../src/_color.scss';
 
 .comp-card {
+
+  display: flex;
+  flex-direction: row;
+
   .cards {
     padding: 80px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     .card {
+      display: flex;
+      flex-direction: column;
       width: 350px;
       height: 280px;
+      
+      
 
       border-radius: 12px;
-      box-shadow: ''
+      box-shadow:
         rgba(0, 0, 0, 0.19) 0px 10px 20px,
         rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
